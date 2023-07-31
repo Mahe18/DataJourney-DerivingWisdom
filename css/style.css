@@ -52,4 +52,27 @@ em {
   font-style: italic;
 }
 
-/* Add any additional CSS styling you want for your website */
+/* Additional CSS for Contact page */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.image {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.contact-info {
+  flex: 1;
+  padding: 20px;
+}
+
