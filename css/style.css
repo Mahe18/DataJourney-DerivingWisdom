@@ -80,7 +80,8 @@ em {
 }
 
 /* Additional CSS for index.html */
-p {
+
+body.index-page p {
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;
