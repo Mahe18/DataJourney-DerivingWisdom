@@ -3,13 +3,13 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  text-align: center; /* Center text within the body */
 }
 
 header {
-  background-color: #ff3131; /* Updated background color */
+  background-color: #ff3131;
   color: #fff;
   padding: 1rem;
-  text-align: center;
 }
 
 header h1 {
@@ -38,6 +38,9 @@ nav ul li a {
 
 section {
   padding: 2rem;
+  max-width: 700px; /* Center section within the body */
+  margin: 0 auto;
+  text-align: left; /* Left align section content */
 }
 
 h2 {
@@ -76,3 +79,9 @@ em {
   padding: 20px;
 }
 
+/* Additional CSS for index.html */
+p {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
