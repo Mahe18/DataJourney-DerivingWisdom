@@ -89,6 +89,7 @@ body.index-page p {
 }
 
 /* Additional CSS for Certificates page */
+/* CSS for Certificates section */
 #certificates-section {
   padding: 20px;
 }
@@ -110,6 +111,37 @@ body.index-page p {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* CSS for Courses section */
+#courses-section {
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#courses-section h3 {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
 /* Additional styles can be added as needed */
 
 
