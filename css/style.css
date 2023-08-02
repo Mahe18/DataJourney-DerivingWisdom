@@ -1,3 +1,4 @@
+/* style.css */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -86,3 +87,36 @@ body.index-page p {
   margin: 0 auto;
   line-height: 1.6;
 }
+
+/* Additional CSS for Certificates page */
+#certificates-section {
+  padding: 20px;
+}
+
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.certificates-grid img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styles can be added as needed */
+
+
+
+
+
+
+
+
+
