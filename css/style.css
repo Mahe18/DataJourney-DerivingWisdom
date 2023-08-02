@@ -132,6 +132,7 @@ table {
 th, td {
   padding: 10px;
   border: 1px solid #ddd;
+  text-align: center;
 }
 
 th {
@@ -141,6 +142,23 @@ th {
 
 tbody tr:nth-child(even) {
   background-color: #f2f2f2;
+}
+
+/* Additional style for serial number column */
+td:first-child {
+  font-weight: bold;
+  width: 50px;
+}
+
+/* Additional style for Course Name and Provider columns */
+td:nth-child(2),
+td:nth-child(3) {
+  width: 300px;
+}
+
+/* Additional style for Completion Date column */
+td:last-child {
+  width: 150px;
 }
 /* Additional styles can be added as needed */
 
