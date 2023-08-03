@@ -200,15 +200,28 @@ td:last-child {
 }
 
 
-/* Additional styles can be added as needed */
+/* Additional style for Experience page */
 
 section ul li {
   list-style-type: disc;
   list-style-position: inside;
 }
 
+.location {
+  float: right;
+}
 
+/* existing code */
+section ul li {
+  list-style-type: disc;
+  list-style-position: inside;
+}
 
+.location {
+  float: right;
+}
+
+/* Additional styles can be added as needed */
 
 
 
