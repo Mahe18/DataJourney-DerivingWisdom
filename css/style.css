@@ -193,6 +193,33 @@ td:last-child {
 .soft-skills li {
   margin-bottom: 0.5rem;
 }
+
+
+/* Additional CSS for resume.html page */
+#typeEffect {
+  border-right: .15em solid black;
+  white-space: pre;
+  overflow: hidden;
+  width: 24ch;
+  margin: 20px auto; /* Center the typing effect */
+  animation: typing 4s steps(60, end), blink .75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 24ch;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
 /* Additional styles can be added as needed */
 
 
