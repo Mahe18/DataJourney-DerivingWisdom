@@ -194,7 +194,10 @@ td:last-child {
   margin-bottom: 0.5rem;
 }
 
-
+/* Additional Style for Resume page */
+.resume-section {
+  text-align: center;
+}
 
 
 /* Additional styles can be added as needed */
