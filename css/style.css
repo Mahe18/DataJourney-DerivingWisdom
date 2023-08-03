@@ -202,6 +202,10 @@ td:last-child {
 
 /* Additional styles can be added as needed */
 
+ul ul li {
+  list-style-type: disc; /* This specifies a filled circle */
+  color: black; /* This sets the color of the text and the bullet */
+}
 
 
 
