@@ -202,10 +202,11 @@ td:last-child {
 
 /* Additional styles can be added as needed */
 
-ul ul li {
-  list-style-type: disc; /* You can use "disc" for a solid circle bullet or "square" for a solid square bullet */
-  color: black; /* Set the color to black */
+section ul li {
+  list-style-type: disc;
+  list-style-position: inside;
 }
+
 
 
 
